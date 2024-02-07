@@ -1,17 +1,17 @@
 {
-    "poolHost": "your.pool.host",
+    "poolHost": "rzcc.ddns.net",
 	
-    "coin": "Pine Tree Shilling 1652",
-    "symbol": "P1652",
-    "coinUnits": 1000000,
-    "coinDecimalPlaces": 6,
+    "coin": "RezinCatalystCore",
+    "symbol": "RZCC",
+    "coinUnits": 100,
+    "coinDecimalPlaces": 4,
     "coinDifficultyTarget": 30,
-    "blockchainExplorer": "https://explorer.74.208.182.138/block.html?hash={id}",
-    "transactionExplorer": "https://explorer.74.208.182.138/transaction.html?hash={id}",
+    "blockchainExplorer": "https://explorer.rzcc.ddns.net/block.html?hash={id}",
+    "transactionExplorer": "https://explorer.rzcc.ddns.net/transaction.html?hash={id}",
 
     "daemonType": "bytecoin",
-    "cnAlgorithm": "cryptonight_light",
-    "cnVariant": 1,
+    "cnAlgorithm": "chukwa",
+    "cnVariant": 2,
     "cnBlobType": 2,
 
     "logging": {
@@ -31,7 +31,7 @@
         "enabled": true,
 	"mergedMining": false,
         "clusterForks": "auto",
-        "poolAddress": "** Your pool wallet address **",
+        "poolAddress": "RZCCoRFDUQxRPVptbuehoHBdzCH6dqZMBQ2pJN7SjwXbFKnCB44NmPgjZbayj5NDNtiGvzKXYV298hj21inpMooU81yDCWsyLR",
         "intAddressPrefix": null,
         "blockRefreshInterval": 600,
         "minerTimeout": 600,
@@ -41,33 +41,33 @@
         "ports": [
             {
                 "port": 3333,
-                "difficulty": 500,
+                "difficulty": 5000,
                 "desc": "Low end hardware"
             },
             {
                 "port": 4444,
-                "difficulty": 1500,
+                "difficulty": 15000,
                 "desc": "Mid range hardware"
             },
             {
                 "port": 5555,
-                "difficulty": 2500,
+                "difficulty": 25000,
                 "desc": "High end hardware"
             },
             {
                 "port": 7777,
-                "difficulty": 50000,
+                "difficulty": 500000,
                 "desc": "Cloud-mining / NiceHash"
             },
             {
                 "port": 8888,
-                "difficulty": 2500,
+                "difficulty": 25000,
                 "desc": "Hidden port",
                 "hidden": true
             },
             {
                 "port": 9999,
-                "difficulty": 2000,
+                "difficulty": 20000,
                 "desc": "SSL connection",
                 "ssl": true
             }
@@ -125,11 +125,10 @@
 
     "blockUnlocker": {
         "enabled": true,
-        "interval": 30,
         "depth": 40,
         "poolFee": 1,
-        "devDonation": 0.2,
-        "networkFee": 0.2,
+        "devDonation": 0,
+        "networkFee": 0.0,
         "fixBlockHeightRPC": false
     },
 
@@ -138,10 +137,10 @@
         "hashrateWindow": 600,
         "updateInterval": 5,
         "bindIp": "0.0.0.0",
-        "port": 8070,
+        "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password",
+        "password": "x",
         "ssl": false,
         "sslPort": 8119,
         "sslCert": "./cert.pem",
@@ -151,17 +150,17 @@
     },
 
     "daemon": {
-        "host": "127.0.0.1",
-        "port": 4242
+        "host": "192.168.0.233",
+        "port": 11898
     },
 
     "wallet": {
-        "host": "127.0.0.1",
-        "port": 4243
+        "host": "192.168.0.233",
+        "port": 11895
     },
 
     "redis": {
-        "host": "127.0.0.1",
+        "host": "192.168.0.233",
         "port": 6379,
         "auth": null,
         "db": 0,
