@@ -1,16 +1,16 @@
-var parentCoin = "COIN";
+var parentCoin = "Rezin Catalyst Core";
 
-var api = "http://poolhost:8117";
-var poolHost = "poolhost.com";
+var api = "http://rzcc.ddns.com:8117";
+var poolHost = "rzcc.ddns.com";
 
-var email = "support@poolhost.com";
+var email = "support@rzcc.ddns.com";
 var telegram = "https://t.me/YourPool";
 var discord = "https://discordapp.com/invite/YourPool";
 
-var marketCurrencies = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
+var marketCurrencies = ["RZCC-BTC", "RZCC-USD", "RZCC-EUR", "RZCC-CAD"];
 
-var blockchainExplorer = "http://chainradar.com/{symbol}/block/{id}";
-var transactionExplorer = "http://chainradar.com/{symbol}/transaction/{id}";
+var blockchainExplorer = "http://chainradar.com/RZCC/block/{id}";
+var transactionExplorer = "http://chainradar.com/RZCC/transaction/{id}";
 
 var themeCss = "themes/default.css";
 var defaultLang = "en";
