@@ -9,23 +9,23 @@
 		"url": "https://github.com/dvandal/cryptonote-nodejs-pool.git"
 	},
 	"dependencies": {
-		"async": "3.2.5",
-		"base58-native": "0.1.4",
-		"bignum": "0.13.1",
-		"bufferutil": "4.0.8",
-		"cli-color": "2.0.3",
+		"async": "^3.2.5",
+		"base58-native": "*",
+		"bignum": "*",
+		"bufferutil": "*",
+		"cli-color": "*",
 		"cryptoforknote-util": "git+https://github.com/MoneroOcean/node-cryptoforknote-util.git",
 		"cryptonight-hashing": "git+https://github.com/MoneroOcean/node-cryptonight-hashing.git",
 		"dateformat": "5.0.3",
-		"domexception": "4.0.0",
-		"mailgun.js": "10.1.0",
-		"node-telegram-bot-api": "0.64.0",
+		"domexception": "^2.0.1",
+		"mailgun.js": "*",
+		"node-telegram-bot-api": "*",
 		"nodemailer": "^6.9.9",
-		"nodemailer-sendmail-transport": "1.0.2",
+		"nodemailer-sendmail-transport": "*",
 		"redis": "4.6.13",
-		"socket.io": "4.7.4",
-		"time-ago": "0.2.1",
-		"utf-8-validate": "6.0.3"
+		"socket.io": "^4.7.4",
+		"time-ago": "*",
+		"utf-8-validate": "*"
 	},
 	"engines": {
 		"node": ">=8.11.3"
